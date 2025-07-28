@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Em yêu anh không?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font đẹp -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Quicksand", sans-serif;
+      }
+
+      body {
+        background: linear-gradient(135deg, #ffe6ec, #fff0f5);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .wrapper {
+        text-align: center;
+        max-width: 500px;
+        width: 100%;
+      }
+
+      .question {
+        font-size: 22px;
+        color: #ff4d6d;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+
+      .question-prompt {
+        font-size: 14px;
+        color: #ff7f94;
+        margin-bottom: 30px;
+      }
+
+      .gif {
+        width: 180px;
+        max-width: 80%;
+        margin: 20px 0;
+      }
+
+      .buttons {
+        position: relative;
+        height: 60px;
+        width: 100%;
+      }
+
+      .yes-btn,
+      .no-btn {
+        padding: 10px 22px;
+        font-size: 16px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        font-weight: bold;
+        position: relative;
+      }
+
+      .yes-btn {
+        background-color: #ff4d6d;
+        color: white;
+        margin-right: 20px;
+      }
+
+      .yes-btn:hover {
+        background-color: #e63956;
+        transform: scale(1.05);
+      }
+
+      .no-btn {
+        background-color: white;
+        color: #ff4d6d;
+        border: 2px solid #ff4d6d;
+        position: absolute;
+      }
+
+      .no-btn:hover {
+        background-color: #ffe6eb;
+        transform: scale(1.05);
+      }
+
+      @media (max-width: 480px) {
+        .question {
+          font-size: 18px;
+        }
+
+        .gif {
+          width: 140px;
+        }
+
+        .yes-btn,
+        .no-btn {
+          padding: 10px 18px;
+          font-size: 14px;
+        }
+
+        .buttons {
+          height: 100px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="question">Em yêu anh không? 🥺</div>
+      <div class="question-prompt">
+        Trả lời thật nha, anh không giận đâu... 😗
+      </div>
+      <img
+        class="gif"
+        src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3djg2OG9qNTN4MGgxbGd0amZhZG83djlxYjh3ZXBneWcwZXJnOHVqeiZlcD12MV9zdGlja2Vyc19yZWxhdGVkJmN0PXM/2weSkZg9hvQW5Zv2fk/giphy.gif"
+        alt="Mèo cute"
+      />
+      <div class="buttons">
+        <button class="yes-btn">Có 💖</button>
+        <button class="no-btn" style="left: 150px">Không 🙄</button>
+      </div>
+    </div>
+
+    <script>
+      const wrapper = document.querySelector(".wrapper");
+      const question = document.querySelector(".question");
+      const gif = document.querySelector(".gif");
+      const yesBtn = document.querySelector(".yes-btn");
+      const noBtn = document.querySelector(".no-btn");
+      const questionPrompt = document.querySelector(".question-prompt");
+
+      yesBtn.addEventListener("click", () => {
+        question.innerHTML = "Hẹ hẹ hẹ anh yêu em <3";
+        gif.src =
+          "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmNmMDFhOGU5NTBwM3E5MnpnMHdqbHJ6aHV4YWh3ZWc1cWowYThvNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/h5eLsAvbbr4awWP8Eu/giphy.gif";
+        yesBtn.style.display = "none";
+        noBtn.style.display = "none";
+        questionPrompt.style.display = "none";
+      });
+
+      function moveNoButton() {
+        const noBtnRect = noBtn.getBoundingClientRect();
+        const maxX = window.innerWidth - noBtnRect.width - 30;
+        const maxY = window.innerHeight - noBtnRect.height - 30;
+
+        const randomX = Math.floor(Math.random() * maxX);
+        const randomY = Math.floor(Math.random() * maxY);
+
+        noBtn.style.left = `${randomX}px`;
+        noBtn.style.top = `${randomY}px`;
+      }
+
+      noBtn.addEventListener("mouseover", moveNoButton);
+      noBtn.addEventListener("touchstart", moveNoButton);
+    </script>
+  </body>
+</html>
