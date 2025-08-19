@@ -1,0 +1,323 @@
+2025-06-10 16:27:00.093 +07:00 [INF] User profile is available. Using 'C:\Users\hgpl2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-10 16:27:00.139 +07:00 [WRN] The WebRootPath was not found: C:\Users\hgpl2\AnanasClone\bin\Debug\net9.0\wwwroot. Static files may be unavailable.
+2025-06-10 16:27:00.149 +07:00 [INF] Now listening on: http://localhost:5000
+2025-06-10 16:27:00.151 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 16:27:00.151 +07:00 [INF] Hosting environment: Production
+2025-06-10 16:27:00.152 +07:00 [INF] Content root path: C:\Users\hgpl2\AnanasClone\bin\Debug\net9.0
+2025-06-10 16:27:02.151 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-06-10 16:27:02.157 +07:00 [WRN] Failed to determine the https port for redirect.
+2025-06-10 16:27:02.175 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:02.179 +07:00 [INF] Executing endpoint 'AnanasClone.Controllers.HomeController.Index (AnanasMvc)'
+2025-06-10 16:27:02.195 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AnanasClone.Controllers.HomeController (AnanasMvc).
+2025-06-10 16:27:02.203 +07:00 [INF] Executing ViewResult, running view Index.
+2025-06-10 16:27:02.260 +07:00 [INF] Executed ViewResult - view Index executed in 58.0833ms.
+2025-06-10 16:27:02.268 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-06-10 16:27:02.269 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/banners/Mobile_Homepage_Banner-copy-1.jpg - null null
+2025-06-10 16:27:02.269 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css - null null
+2025-06-10 16:27:02.269 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/pro_A6T010_1.jpg - null null
+2025-06-10 16:27:02.270 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/pro_A61093_1_1.jpg - null null
+2025-06-10 16:27:02.270 +07:00 [INF] Executed action AnanasClone.Controllers.HomeController.Index (AnanasMvc) in 72.9049ms
+2025-06-10 16:27:02.274 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:02.276 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:02.277 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:02.280 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:02.282 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:02.283 +07:00 [INF] Executed endpoint 'AnanasClone.Controllers.HomeController.Index (AnanasMvc)'
+2025-06-10 16:27:02.285 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 16.9896ms
+2025-06-10 16:27:02.287 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/banners/Mobile_Homepage_Banner-copy-1.jpg - 404 0 null 18.1344ms
+2025-06-10 16:27:02.287 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/css/site.css - 404 0 null 18.7075ms
+2025-06-10 16:27:02.287 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/pro_A6T010_1.jpg - 404 0 null 18.9464ms
+2025-06-10 16:27:02.289 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/pro_A61093_1_1.jpg - 404 0 null 18.5975ms
+2025-06-10 16:27:02.291 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 141.6598ms
+2025-06-10 16:27:02.295 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2025-06-10 16:27:02.296 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/banners/Mobile_Homepage_Banner-copy-1.jpg, Response status code: 404
+2025-06-10 16:27:02.299 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/css/site.css, Response status code: 404
+2025-06-10 16:27:02.301 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/pro_A6T010_1.jpg, Response status code: 404
+2025-06-10 16:27:02.303 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/pro_A61093_1_1.jpg, Response status code: 404
+2025-06-10 16:27:02.307 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - null null
+2025-06-10 16:27:02.308 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/pro_vintas_A61030_1.jpg - null null
+2025-06-10 16:27:02.310 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-06-10 16:27:02.311 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js - null null
+2025-06-10 16:27:02.316 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:02.317 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:02.319 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:02.321 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:02.322 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - 404 0 null 14.5327ms
+2025-06-10 16:27:02.322 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/pro_vintas_A61030_1.jpg - 404 0 null 13.9068ms
+2025-06-10 16:27:02.323 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 13.3292ms
+2025-06-10 16:27:02.324 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/js/site.js - 404 0 null 12.7805ms
+2025-06-10 16:27:02.327 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/jquery/dist/jquery.min.js, Response status code: 404
+2025-06-10 16:27:02.329 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/pro_vintas_A61030_1.jpg, Response status code: 404
+2025-06-10 16:27:02.332 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2025-06-10 16:27:02.334 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/js/site.js, Response status code: 404
+2025-06-10 16:27:02.677 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - null null
+2025-06-10 16:27:02.680 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:02.681 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - 404 0 null 3.9953ms
+2025-06-10 16:27:02.684 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/favicon.ico, Response status code: 404
+2025-06-10 16:27:18.404 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-06-10 16:27:18.417 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:18.418 +07:00 [INF] Executing endpoint 'AnanasClone.Controllers.HomeController.Index (AnanasMvc)'
+2025-06-10 16:27:18.419 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AnanasClone.Controllers.HomeController (AnanasMvc).
+2025-06-10 16:27:18.421 +07:00 [INF] Executing ViewResult, running view Index.
+2025-06-10 16:27:18.425 +07:00 [INF] Executed ViewResult - view Index executed in 4.4639ms.
+2025-06-10 16:27:18.427 +07:00 [INF] Executed action AnanasClone.Controllers.HomeController.Index (AnanasMvc) in 7.313ms
+2025-06-10 16:27:18.429 +07:00 [INF] Executed endpoint 'AnanasClone.Controllers.HomeController.Index (AnanasMvc)'
+2025-06-10 16:27:18.430 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 26.0347ms
+2025-06-10 16:27:18.432 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/banners/Mobile_Homepage_Banner-copy-1.jpg - null null
+2025-06-10 16:27:18.432 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css - null null
+2025-06-10 16:27:18.432 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/pro_A6T010_1.jpg - null null
+2025-06-10 16:27:18.433 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-06-10 16:27:18.434 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/pro_vintas_A61030_1.jpg - null null
+2025-06-10 16:27:18.434 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/pro_A61093_1_1.jpg - null null
+2025-06-10 16:27:18.436 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:18.439 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:18.441 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:18.444 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:18.447 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:18.449 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:18.450 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/banners/Mobile_Homepage_Banner-copy-1.jpg - 404 0 null 18.1424ms
+2025-06-10 16:27:18.451 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/css/site.css - 404 0 null 19.1934ms
+2025-06-10 16:27:18.453 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/pro_A6T010_1.jpg - 404 0 null 20.2228ms
+2025-06-10 16:27:18.454 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 20.5423ms
+2025-06-10 16:27:18.455 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/pro_vintas_A61030_1.jpg - 404 0 null 20.9523ms
+2025-06-10 16:27:18.456 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/pro_A61093_1_1.jpg - 404 0 null 22.264ms
+2025-06-10 16:27:18.460 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/banners/Mobile_Homepage_Banner-copy-1.jpg, Response status code: 404
+2025-06-10 16:27:18.463 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/css/site.css, Response status code: 404
+2025-06-10 16:27:18.466 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/pro_A6T010_1.jpg, Response status code: 404
+2025-06-10 16:27:18.470 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2025-06-10 16:27:18.474 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/pro_vintas_A61030_1.jpg, Response status code: 404
+2025-06-10 16:27:18.478 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/pro_A61093_1_1.jpg, Response status code: 404
+2025-06-10 16:27:18.480 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - null null
+2025-06-10 16:27:18.481 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-06-10 16:27:18.483 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js - null null
+2025-06-10 16:27:18.491 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:18.494 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:18.496 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:18.497 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - 404 0 null 17.2576ms
+2025-06-10 16:27:18.498 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 16.6636ms
+2025-06-10 16:27:18.499 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/js/site.js - 404 0 null 16.1922ms
+2025-06-10 16:27:18.502 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/jquery/dist/jquery.min.js, Response status code: 404
+2025-06-10 16:27:18.506 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2025-06-10 16:27:18.509 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/js/site.js, Response status code: 404
+2025-06-10 16:27:21.086 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Product - null null
+2025-06-10 16:27:21.089 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:21.090 +07:00 [INF] Executing endpoint 'AnanasClone.Controllers.ProductController.Index (AnanasMvc)'
+2025-06-10 16:27:21.099 +07:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal]) on controller AnanasClone.Controllers.ProductController (AnanasMvc).
+2025-06-10 16:27:21.535 +07:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'CartItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-10 16:27:21.537 +07:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-10 16:27:21.539 +07:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-10 16:27:21.540 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-10 16:27:21.930 +07:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT [c].[Name]
+FROM [Categories] AS [c]
+2025-06-10 16:27:21.970 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT [p].[Status]
+FROM [Products] AS [p]
+2025-06-10 16:27:21.978 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT [p].[Style]
+FROM [Products] AS [p]
+2025-06-10 16:27:21.984 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT [p].[Line]
+FROM [Products] AS [p]
+2025-06-10 16:27:22.060 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedAt], [p].[Description], [p].[DiscountPercentage], [p].[ImageUrl], [p].[IsActive], [p].[Line], [p].[Name], [p].[Price], [p].[Status], [p].[StockQuantity], [p].[Style], [p].[UpdatedAt], [c].[Id], [c].[CreatedAt], [c].[Description], [c].[ImageUrl], [c].[IsActive], [c].[Name], [c].[UpdatedAt]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2025-06-10 16:27:22.135 +07:00 [INF] Executing ViewResult, running view Index.
+2025-06-10 16:27:22.169 +07:00 [INF] Executed ViewResult - view Index executed in 34.308ms.
+2025-06-10 16:27:22.171 +07:00 [INF] Executed action AnanasClone.Controllers.ProductController.Index (AnanasMvc) in 1069.728ms
+2025-06-10 16:27:22.173 +07:00 [INF] Executed endpoint 'AnanasClone.Controllers.ProductController.Index (AnanasMvc)'
+2025-06-10 16:27:22.175 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/basas-evergreen-low-top.jpg - null null
+2025-06-10 16:27:22.175 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/vintas-saigon-1980s-high-top.jpg - null null
+2025-06-10 16:27:22.175 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-06-10 16:27:22.175 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css - null null
+2025-06-10 16:27:22.178 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:22.178 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/vivu-warmsand.jpg - null null
+2025-06-10 16:27:22.181 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:22.182 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Product - 200 null text/html; charset=utf-8 1095.8463ms
+2025-06-10 16:27:22.183 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:22.186 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:22.187 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/basas-evergreen-low-top.jpg - 404 0 null 12.0214ms
+2025-06-10 16:27:22.190 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:22.191 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/vintas-saigon-1980s-high-top.jpg - 404 0 null 15.7821ms
+2025-06-10 16:27:22.195 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/vintas-nauda-ext-low-top-monks-robe.jpg - null null
+2025-06-10 16:27:22.196 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 20.9573ms
+2025-06-10 16:27:22.197 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/css/site.css - 404 0 null 22.104ms
+2025-06-10 16:27:22.201 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/basas-evergreen-low-top.jpg, Response status code: 404
+2025-06-10 16:27:22.202 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/vivu-warmsand.jpg - 404 0 null 24.2198ms
+2025-06-10 16:27:22.205 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/vintas-saigon-1980s-high-top.jpg, Response status code: 404
+2025-06-10 16:27:22.209 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:22.212 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2025-06-10 16:27:22.215 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/css/site.css, Response status code: 404
+2025-06-10 16:27:22.218 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - null null
+2025-06-10 16:27:22.221 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/vivu-warmsand.jpg, Response status code: 404
+2025-06-10 16:27:22.224 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/plantation.jpg - null null
+2025-06-10 16:27:22.225 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/vintas-nauda-ext-low-top-monks-robe.jpg - 404 0 null 30.2511ms
+2025-06-10 16:27:22.227 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-06-10 16:27:22.229 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js - null null
+2025-06-10 16:27:22.232 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:22.234 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/nauda-hightop.jpg - null null
+2025-06-10 16:27:22.236 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:22.240 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/vintas-nauda-ext-low-top-monks-robe.jpg, Response status code: 404
+2025-06-10 16:27:22.243 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:22.246 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:22.247 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - 404 0 null 28.9043ms
+2025-06-10 16:27:22.250 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:22.251 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/plantation.jpg - 404 0 null 26.7062ms
+2025-06-10 16:27:22.253 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/nauda-lowtop.jpg - null null
+2025-06-10 16:27:22.254 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 26.7021ms
+2025-06-10 16:27:22.255 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/js/site.js - 404 0 null 26.2893ms
+2025-06-10 16:27:22.259 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/jquery/dist/jquery.min.js, Response status code: 404
+2025-06-10 16:27:22.260 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/nauda-hightop.jpg - 404 0 null 26.7712ms
+2025-06-10 16:27:22.264 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/plantation.jpg, Response status code: 404
+2025-06-10 16:27:22.267 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:22.271 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2025-06-10 16:27:22.274 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/js/site.js, Response status code: 404
+2025-06-10 16:27:22.277 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/polkadot-black.jpg - null null
+2025-06-10 16:27:22.280 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/nauda-hightop.jpg, Response status code: 404
+2025-06-10 16:27:22.282 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/polkadot-offwhite.jpg - null null
+2025-06-10 16:27:22.284 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/nauda-lowtop.jpg - 404 0 null 31.0139ms
+2025-06-10 16:27:22.286 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/polkadot-trueblue.jpg - null null
+2025-06-10 16:27:22.288 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/polkadot-jellybean.jpg - null null
+2025-06-10 16:27:22.291 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:22.293 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/polkadot-coralrose.jpg - null null
+2025-06-10 16:27:22.296 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:22.300 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/nauda-lowtop.jpg, Response status code: 404
+2025-06-10 16:27:22.303 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:22.306 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:22.307 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/polkadot-black.jpg - 404 0 null 30.2492ms
+2025-06-10 16:27:22.311 +07:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-10 16:27:22.312 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/polkadot-offwhite.jpg - 404 0 null 29.0316ms
+2025-06-10 16:27:22.315 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/polkadot-trueblue.jpg - 404 0 null 28.4205ms
+2025-06-10 16:27:22.316 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/polkadot-jellybean.jpg - 404 0 null 27.5848ms
+2025-06-10 16:27:22.319 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/polkadot-black.jpg, Response status code: 404
+2025-06-10 16:27:22.321 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/polkadot-coralrose.jpg - 404 0 null 27.3359ms
+2025-06-10 16:27:22.324 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/polkadot-offwhite.jpg, Response status code: 404
+2025-06-10 16:27:22.327 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/polkadot-trueblue.jpg, Response status code: 404
+2025-06-10 16:27:22.331 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/polkadot-jellybean.jpg, Response status code: 404
+2025-06-10 16:27:22.336 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/polkadot-coralrose.jpg, Response status code: 404
+2025-06-10 16:30:20.474 +07:00 [INF] User profile is available. Using 'C:\Users\hgpl2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-10 16:30:20.544 +07:00 [WRN] The WebRootPath was not found: C:\Users\hgpl2\AnanasClone\bin\Debug\net9.0\wwwroot. Static files may be unavailable.
+2025-06-10 16:30:20.580 +07:00 [INF] Now listening on: http://localhost:5000
+2025-06-10 16:30:20.583 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 16:30:20.584 +07:00 [INF] Hosting environment: Production
+2025-06-10 16:30:20.584 +07:00 [INF] Content root path: C:\Users\hgpl2\AnanasClone\bin\Debug\net9.0
+2025-06-10 16:30:22.121 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-06-10 16:30:22.127 +07:00 [WRN] Failed to determine the https port for redirect.
+2025-06-10 16:30:22.151 +07:00 [INF] Executing endpoint 'AnanasClone.Controllers.HomeController.Index (AnanasMvc)'
+2025-06-10 16:30:22.180 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AnanasClone.Controllers.HomeController (AnanasMvc).
+2025-06-10 16:30:22.192 +07:00 [INF] Executing ViewResult, running view Index.
+2025-06-10 16:30:22.244 +07:00 [INF] Executed ViewResult - view Index executed in 54.198ms.
+2025-06-10 16:30:22.247 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-06-10 16:30:22.255 +07:00 [INF] Executed action AnanasClone.Controllers.HomeController.Index (AnanasMvc) in 72.1591ms
+2025-06-10 16:30:22.260 +07:00 [INF] Executing endpoint 'AnanasClone.Controllers.HomeController.Index (AnanasMvc)'
+2025-06-10 16:30:22.278 +07:00 [INF] Executed endpoint 'AnanasClone.Controllers.HomeController.Index (AnanasMvc)'
+2025-06-10 16:30:22.280 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AnanasClone.Controllers.HomeController (AnanasMvc).
+2025-06-10 16:30:22.285 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 166.7526ms
+2025-06-10 16:30:22.287 +07:00 [INF] Executing ViewResult, running view Index.
+2025-06-10 16:30:22.295 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-06-10 16:30:22.341 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/banners/Mobile_Homepage_Banner-copy-1.jpg - null null
+2025-06-10 16:30:22.296 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css - null null
+2025-06-10 16:30:22.375 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/pro_A6T010_1.jpg - null null
+2025-06-10 16:30:22.375 +07:00 [INF] Executed ViewResult - view Index executed in 89.6195ms.
+2025-06-10 16:30:22.387 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/banners/Mobile_Homepage_Banner-copy-1.jpg - 404 0 null 46.5089ms
+2025-06-10 16:30:22.391 +07:00 [INF] Executed action AnanasClone.Controllers.HomeController.Index (AnanasMvc) in 105.7675ms
+2025-06-10 16:30:22.387 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/css/site.css - 404 0 null 91.1327ms
+2025-06-10 16:30:22.387 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 92.1461ms
+2025-06-10 16:30:22.390 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/pro_A6T010_1.jpg - 404 0 null 14.9858ms
+2025-06-10 16:30:22.463 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/pro_A6T010_1.jpg - null null
+2025-06-10 16:30:22.466 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/banners/Mobile_Homepage_Banner-copy-1.jpg, Response status code: 404
+2025-06-10 16:30:22.466 +07:00 [INF] Executed endpoint 'AnanasClone.Controllers.HomeController.Index (AnanasMvc)'
+2025-06-10 16:30:22.470 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/css/site.css, Response status code: 404
+2025-06-10 16:30:22.473 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2025-06-10 16:30:22.476 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/pro_A6T010_1.jpg, Response status code: 404
+2025-06-10 16:30:22.479 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/pro_A6T010_1.jpg - 404 0 null 16.7769ms
+2025-06-10 16:30:22.480 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/pro_vintas_A61030_1.jpg - null null
+2025-06-10 16:30:22.481 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 234.2922ms
+2025-06-10 16:30:22.483 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css - null null
+2025-06-10 16:30:22.484 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/pro_A61093_1_1.jpg - null null
+2025-06-10 16:30:22.486 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - null null
+2025-06-10 16:30:22.489 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/pro_A6T010_1.jpg, Response status code: 404
+2025-06-10 16:30:22.491 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/pro_vintas_A61030_1.jpg - 404 0 null 11.0462ms
+2025-06-10 16:30:22.495 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/banners/Mobile_Homepage_Banner-copy-1.jpg - null null
+2025-06-10 16:30:22.497 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/css/site.css - 404 0 null 14.432ms
+2025-06-10 16:30:22.500 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/pro_A61093_1_1.jpg - 404 0 null 15.3971ms
+2025-06-10 16:30:22.502 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - 404 0 null 15.7414ms
+2025-06-10 16:30:22.504 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-06-10 16:30:22.507 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/pro_vintas_A61030_1.jpg, Response status code: 404
+2025-06-10 16:30:22.510 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/banners/Mobile_Homepage_Banner-copy-1.jpg - 404 0 null 15.4195ms
+2025-06-10 16:30:22.512 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/css/site.css, Response status code: 404
+2025-06-10 16:30:22.515 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/pro_A61093_1_1.jpg, Response status code: 404
+2025-06-10 16:30:22.517 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/jquery/dist/jquery.min.js, Response status code: 404
+2025-06-10 16:30:22.519 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 15.5362ms
+2025-06-10 16:30:22.521 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/pro_vintas_A61030_1.jpg - null null
+2025-06-10 16:30:22.524 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/banners/Mobile_Homepage_Banner-copy-1.jpg, Response status code: 404
+2025-06-10 16:30:22.526 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-06-10 16:30:22.527 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js - null null
+2025-06-10 16:30:22.528 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/pro_A61093_1_1.jpg - null null
+2025-06-10 16:30:22.531 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2025-06-10 16:30:22.534 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/pro_vintas_A61030_1.jpg - 404 0 null 13.0411ms
+2025-06-10 16:30:22.536 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - null null
+2025-06-10 16:30:22.538 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 12.5527ms
+2025-06-10 16:30:22.542 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/js/site.js - 404 0 null 15.0577ms
+2025-06-10 16:30:22.545 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/pro_A61093_1_1.jpg - 404 0 null 16.7233ms
+2025-06-10 16:30:22.550 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/pro_vintas_A61030_1.jpg, Response status code: 404
+2025-06-10 16:30:22.554 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - 404 0 null 18.0421ms
+2025-06-10 16:30:22.557 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2025-06-10 16:30:22.561 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/js/site.js, Response status code: 404
+2025-06-10 16:30:22.564 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/pro_A61093_1_1.jpg, Response status code: 404
+2025-06-10 16:30:22.568 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/jquery/dist/jquery.min.js, Response status code: 404
+2025-06-10 16:30:22.570 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-06-10 16:30:22.572 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js - null null
+2025-06-10 16:30:22.579 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - null null
+2025-06-10 16:30:22.582 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 11.8943ms
+2025-06-10 16:30:22.584 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/js/site.js - 404 0 null 12.0169ms
+2025-06-10 16:30:22.589 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - 404 0 null 10.2674ms
+2025-06-10 16:30:22.592 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2025-06-10 16:30:22.595 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/js/site.js, Response status code: 404
+2025-06-10 16:30:22.599 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/favicon.ico, Response status code: 404
+2025-06-10 16:30:36.715 +07:00 [INF] User profile is available. Using 'C:\Users\hgpl2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-10 16:30:36.783 +07:00 [WRN] The WebRootPath was not found: C:\Users\hgpl2\AnanasClone\bin\Debug\net9.0\wwwroot. Static files may be unavailable.
+2025-06-10 16:30:36.855 +07:00 [INF] Now listening on: http://localhost:5000
+2025-06-10 16:30:36.859 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 16:30:36.860 +07:00 [INF] Hosting environment: Production
+2025-06-10 16:30:36.861 +07:00 [INF] Content root path: C:\Users\hgpl2\AnanasClone\bin\Debug\net9.0
+2025-06-10 16:30:38.876 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-06-10 16:30:38.882 +07:00 [WRN] Failed to determine the https port for redirect.
+2025-06-10 16:30:38.902 +07:00 [INF] Executing endpoint 'AnanasClone.Controllers.HomeController.Index (AnanasMvc)'
+2025-06-10 16:30:38.927 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AnanasClone.Controllers.HomeController (AnanasMvc).
+2025-06-10 16:30:38.937 +07:00 [INF] Executing ViewResult, running view Index.
+2025-06-10 16:30:39.004 +07:00 [INF] Executed ViewResult - view Index executed in 69.1556ms.
+2025-06-10 16:30:39.009 +07:00 [INF] Executed action AnanasClone.Controllers.HomeController.Index (AnanasMvc) in 80.0494ms
+2025-06-10 16:30:39.012 +07:00 [INF] Executed endpoint 'AnanasClone.Controllers.HomeController.Index (AnanasMvc)'
+2025-06-10 16:30:39.060 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/banners/Mobile_Homepage_Banner-copy-1.jpg - null null
+2025-06-10 16:30:39.061 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css - null null
+2025-06-10 16:30:39.061 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-06-10 16:30:39.122 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 248.9668ms
+2025-06-10 16:30:39.205 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/css/site.css - 404 0 null 181.6223ms
+2025-06-10 16:30:39.205 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 181.8199ms
+2025-06-10 16:30:39.205 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/banners/Mobile_Homepage_Banner-copy-1.jpg - 404 0 null 181.6253ms
+2025-06-10 16:30:39.120 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/pro_vintas_A61030_1.jpg - null null
+2025-06-10 16:30:39.120 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/pro_A61093_1_1.jpg - null null
+2025-06-10 16:30:39.246 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/products/pro_A6T010_1.jpg - null null
+2025-06-10 16:30:39.249 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/css/site.css, Response status code: 404
+2025-06-10 16:30:39.252 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2025-06-10 16:30:39.254 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/banners/Mobile_Homepage_Banner-copy-1.jpg, Response status code: 404
+2025-06-10 16:30:39.260 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/pro_vintas_A61030_1.jpg - 404 0 null 140.8032ms
+2025-06-10 16:30:39.261 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/pro_A61093_1_1.jpg - 404 0 null 141.5621ms
+2025-06-10 16:30:39.265 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/products/pro_A6T010_1.jpg - 404 0 null 18.6712ms
+2025-06-10 16:30:39.267 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - null null
+2025-06-10 16:30:39.269 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js - null null
+2025-06-10 16:30:39.272 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-06-10 16:30:39.276 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/pro_vintas_A61030_1.jpg, Response status code: 404
+2025-06-10 16:30:39.279 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/pro_A61093_1_1.jpg, Response status code: 404
+2025-06-10 16:30:39.281 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/products/pro_A6T010_1.jpg, Response status code: 404
+2025-06-10 16:30:39.284 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - 404 0 null 16.7719ms
+2025-06-10 16:30:39.286 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/js/site.js - 404 0 null 16.7189ms
+2025-06-10 16:30:39.289 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 17.1357ms
+2025-06-10 16:30:39.297 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/jquery/dist/jquery.min.js, Response status code: 404
+2025-06-10 16:30:39.299 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/js/site.js, Response status code: 404
+2025-06-10 16:30:39.301 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2025-06-10 16:30:39.312 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - null null
+2025-06-10 16:30:39.316 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - 404 0 null 3.8303ms
+2025-06-10 16:30:39.319 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/favicon.ico, Response status code: 404

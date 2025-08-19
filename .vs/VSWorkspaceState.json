@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "\\Models",
+    "\\Models\\ViewModels",
+    "\\obj",
+    "\\Views",
+    "\\Views\\Account",
+    "\\Views\\Cart",
+    "\\Views\\Product",
+    "\\wwwroot",
+    "\\wwwroot\\css",
+    "\\wwwroot\\js"
+  ],
+  "PreviewInSolutionExplorer": false
+}

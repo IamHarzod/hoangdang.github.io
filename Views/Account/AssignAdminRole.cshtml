@@ -1,0 +1,21 @@
+@model string
+
+@{
+    ViewData["Title"] = "Gán quyền Admin";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <h2>@ViewData["Title"]</h2>
+        <p>Nhập ID của người dùng cần gán quyền Admin:</p>
+        <form method="post" asp-action="AssignAdminRole">
+            <input type="hidden" name="userId" value="@Model" />
+            <div class="form-group">
+                <input type="text" name="userId" class="form-control" placeholder="Nhập ID người dùng" required />
+            </div>
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-primary">Gán quyền Admin</button>
+            </div>
+        </form>
+    </div>
+</div> 

@@ -1,0 +1,70 @@
+@model AnanasClone.Models.Order
+
+@{
+    ViewData["Title"] = "Order Confirmation";
+}
+
+<div class="container my-4">
+    <div class="text-center mb-4">
+        <h1>Thank You for Your Order!</h1>
+        <p class="lead">Your order has been successfully placed.</p>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Order Details</h5>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <p><strong>Order Number:</strong> #@Model.Id</p>
+                    <p><strong>Order Date:</strong> @Model.CreatedAt.ToString("g")</p>
+                    <p><strong>Status:</strong> <span class="badge bg-primary">@Model.Status</span></p>
+                </div>
+                <div class="col-md-6">
+                    <p><strong>Shipping Address:</strong></p>
+                    <p>@Model.ShippingAddress</p>
+                    <p><strong>Phone:</strong> @Model.PhoneNumber</p>
+                </div>
+            </div>
+
+            <h6>Order Items</h6>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.OrderItems)
+                        {
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img src="@item.Product?.ImageUrl" alt="@item.Product?.Name" style="width: 40px; height: 40px; object-fit: cover;" class="me-2">
+                                        <div>@item.Product?.Name</div>
+                                    </div>
+                                </td>
+                                <td>$@item.UnitPrice</td>
+                                <td>@item.Quantity</td>
+                                <td>$@item.TotalPrice</td>
+                            </tr>
+                        }
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3" class="text-end"><strong>Total:</strong></td>
+                            <td><strong>$@Model.TotalAmount</strong></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <a asp-controller="Product" asp-action="Index" class="btn btn-primary">Continue Shopping</a>
+    </div>
+</div> 

@@ -1,0 +1,88 @@
+@model AnanasClone.ViewModels.ProductViewModel
+
+@{
+    ViewData["Title"] = Model.Name;
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <!-- Gallery -->
+        <div class="col-md-6">
+            <img src="@Model.ImageUrl" class="img-fluid mb-3 border" alt="@Model.Name" style="max-height:350px;object-fit:contain;">
+            <div class="d-flex">
+                @if (Model.AdditionalImages != null && Model.AdditionalImages.Any())
+                {
+                    foreach (var img in Model.AdditionalImages)
+                    {
+                        <img src="@img" class="img-thumbnail me-2" style="width:70px;height:70px;object-fit:cover;">
+                    }
+                }
+                else
+                {
+                    <img src="@Model.ImageUrl" class="img-thumbnail me-2" style="width:70px;height:70px;object-fit:cover;">
+                }
+            </div>
+        </div>
+        <!-- Info -->
+        <div class="col-md-6">
+            <h3 class="fw-bold">@Model.Name</h3>
+            <div class="mb-2">Mã sản phẩm: <b>@Model.Id</b></div>
+            <div class="mb-2">Trạng thái: <b>@Model.Status</b></div>
+            <div class="text-danger fs-4 fw-bold mb-2">@Model.Price.ToString("N0") đ</div>
+            <form asp-controller="Cart" asp-action="AddToCart" method="post">
+                <input type="hidden" name="productId" value="@Model.Id" />
+                <div class="row mb-2">
+                    <div class="col-6">
+                        <label>Size</label>
+                        <select name="size" class="form-select">
+                            <option>36</option>
+                            <option>37</option>
+                            <option>38</option>
+                            <option>39</option>
+                            <option>40</option>
+                            <option>41</option>
+                            <option>42</option>
+                            <option>43</option>
+                            <option>44</option>
+                            <option>45</option>
+                            <option>46</option>
+                        </select>
+                    </div>
+                    <div class="col-6">
+                        <label>Số lượng</label>
+                        <input type="number" name="quantity" value="1" min="1" class="form-control" />
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-warning w-100 mb-2">Thêm vào giỏ hàng</button>
+                <button type="button" class="btn btn-danger w-100">Thanh toán</button>
+            </form>
+            <div class="mt-3">
+                <h5>Thông tin sản phẩm</h5>
+                <p>@Model.Description</p>
+                <h6 class="mt-3">ANANAS SIZE CHART</h6>
+                <img src="/images/sizechart.png" class="img-fluid" alt="Size chart" />
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function incrementQuantity() {
+            var input = document.getElementById('quantity');
+            var max = parseInt(input.getAttribute('max'));
+            var value = parseInt(input.value);
+            if (value < max) {
+                input.value = value + 1;
+            }
+        }
+
+        function decrementQuantity() {
+            var input = document.getElementById('quantity');
+            var value = parseInt(input.value);
+            if (value > 1) {
+                input.value = value - 1;
+            }
+        }
+    </script>
+} 
